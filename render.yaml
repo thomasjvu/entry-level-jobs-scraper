@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: your-app-name
+    env: node
+    buildCommand: npm install
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 16.x.x # or whatever version you're using
+      - key: RENDER
+        value: true
+    packages:
+      - chromium

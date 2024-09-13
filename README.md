@@ -1,10 +1,10 @@
 # Game Jobs Scraper
 
-This project is a web scraper that automatically collects job listings from GameJobs.co and stores them in a Supabase database. It's designed to run both locally and on Render.com.
+This project is an example web scraper that automatically collects job listings from and stores them in a Supabase database. It's designed to run both locally and on Render.com.
 
 ## Features
 
-- Scrapes job listings from GameJobs.co (and template for other sites)
+- Scrapes job listings from GameJobs.co (as a learnable template)
 - Stores job data in a Supabase database
 - Avoids duplicate entries
 - Runs on a daily schedule using node-cron
